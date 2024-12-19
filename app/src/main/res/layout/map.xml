@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Mapa de Google -->
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Botones flotantes -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="16dp">
+
+        <!-- Botón para iniciar/detener el registro -->
+        <Button
+            android:id="@+id/btn_toggle_tracking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Iniciar Registro"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Botón para mostrar historial -->
+        <Button
+            android:id="@+id/btn_show_history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mostrar Historial"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Botón para cambiar el estilo del mapa -->
+        <Button
+            android:id="@+id/btn_change_map_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cambiar Estilo"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Botón para agregar un marcador en la ubicación actual -->
+        <Button
+            android:id="@+id/btn_add_marker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agregar Marcador"/>
+    </LinearLayout>
+
+</FrameLayout>

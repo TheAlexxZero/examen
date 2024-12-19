@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1082208403772",
+    "project_id": "examengps-d1862",
+    "storage_bucket": "examengps-d1862.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082208403772:android:e6675bbb11cafc153cde39",
+        "android_client_info": {
+          "package_name": "com.example.examenmapsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0muEKyRWGaQb75MavnOrlk_-pbBE0aJM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
